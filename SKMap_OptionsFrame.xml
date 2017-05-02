@@ -145,7 +145,7 @@
 					</Anchor>
 				</Anchors>
 
-				<Layers>
+				<!--Layers>
 					<Layer level="ARTWORK">
 						<Texture name="$parentScrollBarTop" file="Interface\PaperDollInfoFrame\UI-Character-ScrollBar">
 							<Size>
@@ -174,7 +174,7 @@
 							<TexCoords left="0.515625" right="1.0" top="0" bottom="0.4140625" />
 						</Texture>
 					</Layer>
-				</Layers>
+				</Layers-->
 				<Scripts>
 					<OnVerticalScroll>
 						FauxScrollFrame_OnVerticalScroll(32, SKMap_OptionsFrame_ScrollUpdate);
